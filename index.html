@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sign up form</title>
 </head>
+
 <body>
     <header>
         <div>
-            <p>Already have an Intuit account?<br><a>I forgot my User ID or Password</a></p>
-            <button>Sign in</button>
-        </div>
+            <p>
+                Already have an Intuit account?<br /><a>I forgot my User ID or Password</a
+					>
+				</p>
+				<button>Sign in</button>
+			</div>
+		</header>
+		<main>
+			<header>
+				<h1>intuit</h1>
+				<p>mint quickbooks turbotax</p>
+			</header>
+			<section>
+				<header>
+					<h2>Create an Intuit account</h2>
+					<p>One account for everything Intuit, including Mint.</p>
+					<a class="learn" href="#">Learn more</a>
     </header>
-    <main>
-        <header>
-            <h1>intuit</h1>
-            <p>mint quickbooks turbotax</p>
-        </header>
+    <form action="#">
+        <fieldset>
+            <label for="email">
+							Email address
+							<input type="email" name="email" id="email" />
+						</label>
+            <label for="phone">
+							Phone (recommended)
+							<input type="tel" name="phone" id="phone" required />
+							Standard call, messaging or data rates may apply.
+						</label>
+            <label for="password">
+							Password
+							<input type="password" name="password" id="password" />
+						</label>
+        </fieldset>
+        <fieldset class="user-action">
+            <input type="text" value="Create Acccount" />
+        </fieldset>
+    </form>
+    </section>
     </main>
 </body>
+
 </html>
