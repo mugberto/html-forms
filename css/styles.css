@@ -1,12 +1,12 @@
 /* General style */
 
-body{
+body {
     background-color: #eceef1;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.blue-btn{
+.blue-btn {
     background-color: #0077c5;
     border-style: solid;
     border-radius: 5px;
@@ -14,9 +14,10 @@ body{
     padding: 10px 20px;
 }
 
-.blue-links{
+.blue-links {
     color: #0077c5;
 }
+
 
 /* page header */
 
@@ -29,12 +30,36 @@ body{
 }
 
 .page-header p {
-    font-size: .7rem;
+    font-size: 0.7rem;
     margin-right: 10px;
     line-height: 1.5;
     color: #666;
+    margin-bottom: 20px;
 }
 
 
-
 /* end page header */
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 350px;
+    flex-flow: column;
+}
