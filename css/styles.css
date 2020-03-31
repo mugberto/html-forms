@@ -1,0 +1,40 @@
+/* General style */
+
+body{
+    background-color: #eceef1;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-btn{
+    background-color: #0077c5;
+    border-style: solid;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.blue-links{
+    color: #0077c5;
+}
+
+/* page header */
+
+.page-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.page-header p {
+    font-size: .7rem;
+    margin-right: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+
+/* end page header */
