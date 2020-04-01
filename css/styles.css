@@ -1,223 +1,215 @@
 /* General style */
 
 body {
-    background-color: #eceef1;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #eceef1;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .blue-btn {
-    background-color: #0077c5;
-    border-style: solid;
-    border-radius: 5px;
-    color: #ffffff;
-    padding: 10px 20px;
+  background-color: #0077c5;
+  border-style: solid;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
 }
 
 .blue-links {
-    color: #0077c5;
-    text-decoration: none;
-    font-size: 0.7rem;
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 0.7rem;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* page header */
 
 .page-header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 30px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 20px;
 }
 
 .page-header p {
-    font-size: 0.7rem;
-    margin-right: 10px;
-    line-height: 1.5;
-    color: #666;
+  font-size: 0.7rem;
+  margin-right: 10px;
+  line-height: 1.5;
+  color: #666;
 }
 
-
 /* end page header */
-
 
 /* Main Section */
 
 main {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-logo {
-    width: 120px;
-    margin-bottom: 12px;
+  width: 120px;
+  margin-bottom: 12px;
 }
 
 .logo-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .logo-list a {
-    text-decoration: none;
-    font-family: Helvetica;
-    letter-spacing: 0.1rem;
-    color: #666;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  color: #666;
 }
 
 .logo {
-    width: 25px;
-    vertical-align: middle;
-    margin-left: 10px;
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .brand {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .user-info {
-    border: 1px solid #bbb;
-    border-radius: 2px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 380px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 380px;
 }
 
 .form-container {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    flex-flow: column;
-    padding: 32px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  flex-flow: column;
+  padding: 32px 30px;
 }
 
 .user-header {
-    margin-bottom: 20px;
-    line-height: 1.1;
+  margin-bottom: 20px;
+  line-height: 1.1;
 }
 
 .user-header h2 {
-    font-size: 1.5rem;
-    margin-bottom: 17px;
-    color: #444444;
+  font-size: 1.5rem;
+  margin-bottom: 17px;
+  color: #444;
 }
 
 .user-header p {
-    font-size: 0.85rem;
-    color: #444444;
+  font-size: 0.85rem;
+  color: #444;
 }
-
 
 /* Form */
 
 fieldset {
-    display: flex;
-    flex-flow: column wrap;
-    margin-bottom: 30px;
-    color: #444444;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 30px;
+  color: #444;
 }
 
 fieldset label {
-    margin-bottom: 10px;
-    font-size: 14px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .help-text {
-    display: block;
-    font-size: 0.7rem;
-    margin-top: 8px;
+  display: block;
+  font-size: 0.7rem;
+  margin-top: 8px;
 }
 
 fieldset input {
-    width: 300px;
-    height: 28px;
-    border-radius: 3px;
-    border: 1px solid #bbb;
+  width: 300px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
 }
 
 fieldset button {
-    width: 100%;
-    height: 48px;
-    font-size: 1rem;
+  width: 100%;
+  height: 48px;
+  font-size: 1rem;
 }
 
 .password {
-    position: relative;
+  position: relative;
 }
 
 .password-lock {
-    position: absolute;
-    right: 9px;
-    bottom: 8px;
-    color: #bbb;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  position: absolute;
+  right: 9px;
+  bottom: 8px;
+  color: #bbb;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
-
-/*End Form */
+/* End Form */
 
 .more-info {
-    font-style: italic;
-    font-size: 0.75rem;
-    line-height: 1.6;
-    color: #666666;
-    margin: 17px 0;
+  font-style: italic;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 17px 0;
 }
 
 .main-section-footer {
-    background-color: #eceef1;
-    font-size: 0.55rem;
-    color: #666666;
-    padding: 20px;
+  background-color: #eceef1;
+  font-size: 0.55rem;
+  color: #666;
+  padding: 20px;
 }
 
-
-/*End Main Section */
-
+/* End Main Section */
 
 /* Footer */
 
 .page-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #666666;
-    flex-flow: column wrap;
-    margin-top: 8px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  flex-flow: column wrap;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 0.75rem;
 }
 
 .page-footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #666666;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  flex-flow: row wrap;
 }
 
 .page-footer a {
-    text-decoration: none;
-    margin-right: 10px;
-    color: #666666;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #666;
 }
 
-
-/*End Footer */
+/* End Footer */
