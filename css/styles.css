@@ -33,6 +33,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 10px 30px;
+    margin-bottom: 20px;
 }
 
 .page-header p {
@@ -40,7 +41,6 @@ body {
     margin-right: 10px;
     line-height: 1.5;
     color: #666;
-    margin-bottom: 20px;
 }
 
 
@@ -94,7 +94,6 @@ main {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 380px;
- 
 }
 
 .form-container {
@@ -105,7 +104,6 @@ main {
     background-color: #ffffff;
     flex-flow: column;
     padding: 32px 30px;
-    ;
 }
 
 .user-header {
@@ -116,10 +114,12 @@ main {
 .user-header h2 {
     font-size: 1.5rem;
     margin-bottom: 17px;
+    color: #444444;
 }
 
 .user-header p {
     font-size: 0.85rem;
+    color: #444444;
 }
 
 
@@ -149,11 +149,26 @@ fieldset input {
     border-radius: 3px;
     border: 1px solid #bbb;
 }
+
 fieldset button {
     width: 100%;
     height: 48px;
     font-size: 1rem;
 }
+
+.password {
+    position: relative;
+}
+
+.password-lock {
+    position: absolute;
+    right: 9px;
+    bottom: 8px;
+    color: #bbb;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 
 /*End Form */
 
@@ -167,10 +182,42 @@ fieldset button {
 
 .main-section-footer {
     background-color: #eceef1;
-    font-size: .55rem;
+    font-size: 0.55rem;
     color: #666666;
     padding: 20px;
-
 }
 
+
 /*End Main Section */
+
+
+/* Footer */
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    flex-flow: column wrap;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 0.75rem;
+}
+
+.page-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    flex-flow: row wrap;
+}
+
+.page-footer a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #666666;
+}
+
+
+/*End Footer */

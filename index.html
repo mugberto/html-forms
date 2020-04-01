@@ -63,10 +63,10 @@
 			</header>
 			<section class="user-info">
 				<div class="form-container">
-				<header class="user-header text-center">
-					<h2>Create an Intuit account</h2>
-					<p>One account for everything Intuit, including Mint.</p>
-					<a class="blue-links" href="#">Learn more</a>
+					<header class="user-header text-center">
+						<h2>Create an Intuit account</h2>
+						<p>One account for everything Intuit, including Mint.</p>
+						<a class="blue-links" href="#">Learn more</a>
     </header>
     <!-- Form -->
     <form action="#">
@@ -80,43 +80,48 @@
             <label for="phone">Phone (recommended)</label>
             <input type="tel" name="phone" id="phone" required />
             <span class="help-text">Standard call, messaging or data rates may apply.</span
-						>
-					</fieldset>
+							>
+						</fieldset>
 
-					<fieldset>
-						<label for="password">Password</label>
-						<input type="password" name="password" id="password" />
-					</fieldset>
-					<fieldset class="user-action">
-						<button class="blue-btn"><i class="fa fa-lock"></i> Create Account</button>
-					</fieldset>
-				</form>
-				<!--End Form -->
-				<div class="text-center">
-					<p class="more-info">
-						By clicking Create account, you agree to our <br />
-						<a class="blue-links" href="#">Terms </a> and have read and acknowledge our
-						<a class="blue-links" href="#">Privacy Statement.</a>
-					</p>
+						<fieldset class="password">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" />
+							<i class="fa fa-unlock password-lock" aria-hidden="true"></i>
+						</fieldset>
+						<fieldset class="user-action">
+							<button class="blue-btn">
+								<i class="fa fa-lock"></i> Create Account
+							</button>
+						</fieldset>
+					</form>
+					<!--End Form -->
+					<div class="text-center">
+						<p class="more-info">
+							By clicking Create account, you agree to our <br />
+							<a class="blue-links" href="#">Terms </a> and have read and
+							acknowledge our
+							<a class="blue-links" href="#">Privacy Statement.</a>
+						</p>
+					</div>
 				</div>
-			</div>
-			<footer class="main-section-footer text-center">
-				<p>
-					Invisible reCAPTCHA by Google <a class="blue-links" href="#">Privacy Policy</a> and
-					<a class="blue-links" href="#">Terms of Use.</a>
-				</p>
-			</footer>
-		</section>
+				<footer class="main-section-footer text-center">
+					<p>
+						Invisible reCAPTCHA by Google
+						<a class="blue-links" href="#">Privacy Policy</a> and
+						<a class="blue-links" href="#">Terms of Use.</a>
+					</p>
+				</footer>
+			</section>
 		</main>
 		<!--End Main Section -->
 		<!-- Footer -->
-		<footer>
+		<footer class="page-footer">
 			<ul>
 				<li><a href="#">Legal</a></li>
 				<li><a href="#">Privacy</a></li>
 				<li><a href="#">Security</a></li>
 			</ul>
-			<p>
+			<p class="text-center">
 				&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
 				TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
 				<br />
