@@ -16,6 +16,12 @@ body {
 
 .blue-links {
     color: #0077c5;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -89,7 +95,23 @@ main {
     background-color: #ffffff;
     width: 350px;
     flex-flow: column;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    padding: 32px 30px;
 }
 
+.user-header{
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.user-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 17px;
+}
+
+.user-header p {
+    font-size: .85rem;
+}
 
 /*End Main Section */
