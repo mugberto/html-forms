@@ -40,11 +40,38 @@ body {
 
 /* end page header */
 
+
+/* Main Section */
+
 main {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.main-logo {
+    width: 120px;
+    margin-bottom: 12px;
+}
+
+.logo-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.logo-list a {
+    text-decoration: none;
+    font-family: Helvetica;
+    letter-spacing: 0.1rem;
+    color: #666;
+}
+
+.logo {
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 .brand {
@@ -63,3 +90,6 @@ main {
     width: 350px;
     flex-flow: column;
 }
+
+
+/*End Main Section */
