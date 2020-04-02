@@ -15,7 +15,7 @@ Cloning mint.com's sign up page
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/html-forms/dc9d7866ef7b54495304d193d706eca349d9f34f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mugberto/html-forms/e31835a5e0cd5ceee4c352cbc17f3ba8414c5ee8/index.html)
 ​
 ​
 
